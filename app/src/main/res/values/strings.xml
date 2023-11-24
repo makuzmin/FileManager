@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="sort_activity">Sorting options</string>
+    <string name="app_name">File Manager</string>
+	<string name="frag2_text">Fragment 2</string>
+	<string name="number_list">URL</string>
+	<string name="empty">No Data</string>
+	<string name="btn_go">GO</string>
+	<string name="btn_Delete">Delete</string>
+	<string name="btn_OK">OK</string>
+	<string name="btn_Cancel">Cancel</string>	
+	<string name="btn_Yes">Yes</string>
+	<string name="btn_No">No</string>
+	<string name="menu_Info">Info</string>
+	<string name="menu_Cut">Cut</string>
+	<string name="menu_Copy">Copy</string>
+	<string name="menu_CopyFlash">Copy to Flash</string>
+	<string name="menu_Copy_Net">Copy to Network</string>
+	<string name="menu_Rename">Rename</string>
+	<string name="menu_Send">Send</string>
+	<string name="menu_Delete">Delete</string>	
+	<string name="menu_Paste">Paste</string>
+	<string name="menu_NewFolder">New Folder</string>
+	<string name="menu_NewNetFolder">New Net Folder</string>
+	<string name="menu_Sort">Sort</string>
+	<string name="menu_Authorize">Enter User Info</string>
+	<string name="menu_Exit">Exit</string>	
+	<string name="msg_Error">Error</string>
+	<string name="msg_Success">Success</string>
+	<string name="msg_Process">Processing Files</string>
+	<string name="msg_Progress">Progress</string>
+	<string name="msg_EmptyFolder">--- this folder is empty ---</string>
+	
+</resources>

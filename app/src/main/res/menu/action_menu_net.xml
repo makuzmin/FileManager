@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+	xmlns:android="http://schemas.android.com/apk/res/android">
+
+	<item
+		android:showAsAction="ifRoom|withText"
+		android:id="@+id/menu_copy_flash"
+		android:orderInCategory="3"		
+		android:title="@string/menu_CopyFlash">
+	</item>
+	<item
+		android:showAsAction="ifRoom|withText"
+		android:icon="@drawable/ic_action_edit"
+		android:id="@+id/menu_rename_net"
+		android:orderInCategory="4"		
+		android:title="@string/menu_Rename">
+	</item>
+	<item
+		android:showAsAction="ifRoom|withText"
+		android:icon="@drawable/ic_action_discard"	
+		android:id="@+id/menu_delete_net"
+		android:orderInCategory="6"
+		android:title="@string/menu_Delete">
+	</item>	
+</menu>

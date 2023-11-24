@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent"
+	android:orientation="vertical"
+	android:background="#DCF4FA">
+
+	<LinearLayout
+		android:layout_height="wrap_content"
+		android:layout_width="match_parent"
+		android:orientation="horizontal">
+
+		<Button
+			android:layout_height="wrap_content"
+			style="?android:attr/buttonStyleSmall"
+			android:text="Host"
+			android:layout_width="wrap_content"
+			android:id="@+id/fNetBtnHost"/>
+
+		<Button
+			android:layout_height="wrap_content"
+			style="?android:attr/buttonStyleSmall"
+			android:text="Up"
+			android:layout_width="wrap_content"
+			android:id="@+id/fNetBtnUp"/>
+
+		<TextView
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:text="@string/number_list"
+			android:id="@+id/fNettvPath">
+
+		</TextView>
+
+	</LinearLayout>
+
+	<ProgressBar
+		android:layout_height="match_parent"
+		android:layout_width="match_parent"
+		style="?android:attr/progressBarStyleLarge"
+		android:id="@+id/fragmentnet_pb1"
+		android:layout_margin="70dp"/>
+
+	<ListView
+		android:id="@id/android:list"
+		android:layout_width="match_parent"
+		android:layout_height="match_parent">
+
+	</ListView>
+
+	<TextView
+		android:id="@id/android:empty"
+		android:layout_width="match_parent"
+		android:layout_height="match_parent"
+		android:gravity="center"
+		android:text="@string/empty">
+
+	</TextView>
+
+</LinearLayout>
+

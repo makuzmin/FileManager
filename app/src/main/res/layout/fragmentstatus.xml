@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="fill_parent"
+	android:layout_height="fill_parent"
+	android:orientation="horizontal">
+
+	<LinearLayout
+		android:layout_height="match_parent"
+		android:layout_width="wrap_content"
+		android:orientation="vertical">
+
+		<ProgressBar
+			android:layout_height="match_parent"
+			android:layout_width="wrap_content"
+			android:id="@+id/fragmentstatus_pb_bkgrProcess"
+			android:layout_marginLeft="10dp"/>
+
+		<CheckBox
+			android:layout_height="match_parent"
+			android:layout_width="wrap_content"
+			android:id="@+id/fragmentstatus_cb_showNetwork"
+			android:layout_marginLeft="10dp"/>
+
+	</LinearLayout>
+
+	<LinearLayout
+		android:layout_height="match_parent"
+		android:layout_width="match_parent"
+		android:orientation="vertical"
+		android:layout_weight="1.0"
+		android:layout_marginLeft="10dp">
+
+		<TextView
+			android:layout_height="match_parent"
+			android:text="Process Info"
+			android:layout_width="match_parent"
+			android:id="@+id/fragmentstatus_tvProcInfo"
+			android:layout_weight="1.0"/>
+
+		<LinearLayout
+			android:layout_height="match_parent"
+			android:layout_width="wrap_content"
+			android:orientation="horizontal"
+			android:layout_weight="1.0">
+
+			<TextView
+				android:layout_height="match_parent"
+				android:text="Processed Items"
+				android:textAppearance="?android:attr/textAppearanceSmall"
+				android:layout_width="wrap_content"
+				android:id="@+id/fragmentstatus_tvInfoItems"/>
+
+			<TextView
+				android:layout_height="match_parent"
+				android:text="Info kBytes"
+				android:textAppearance="?android:attr/textAppearanceSmall"
+				android:layout_width="wrap_content"
+				android:id="@+id/fragmentstatus_InfoBytes"
+				android:layout_marginLeft="10dp"/>
+
+		</LinearLayout>
+
+		<TextView
+			android:layout_height="match_parent"
+			android:text="Hide Network View"
+			android:layout_width="match_parent"
+			android:gravity="center_vertical"
+			android:id="@+id/fragmentstatus_tv_cbText"/>
+
+	</LinearLayout>
+
+	<Button
+		android:layout_height="match_parent"
+		style="?android:attr/buttonStyleSmall"
+		android:text="Cancel"
+		android:layout_width="match_parent"
+		android:id="@+id/fragmentstatus_btnCancel"
+		android:layout_weight="2"/>
+
+</LinearLayout>
+
